@@ -1,0 +1,33 @@
+version: "3.8"
+volumes:
+  db-data:
+
+services:
+  db:
+    build:
+      context: .
+      dockerfile: docker/db.Dockerfile
+    restart: always
+    volumes:
+      - type: volume
+        source: db-data
+        target: /var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: dbt
+      POSTGRES_USER: dbt
+      POSTGRES_DB: dvdrental
+      DATABASE_HOST: 127.0.0.1
+    ports:
+      - "5555:5432"
+
+  dbt:
+    depends_on:
+      - db
+    build:
+      context: .
+      dockerfile: docker/dbt.Dockerfile
+    volumes:
+      - type: bind
+        source: ./dbt_project
+        target: /dbt_project # bind local dbt project to docker workdir
+    entrypoint: dbt

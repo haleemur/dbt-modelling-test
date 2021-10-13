@@ -1,0 +1,19 @@
+name: dbt_project
+version: "1.1.0"
+config-version: 2
+profile: local
+source-paths: ["models", "sources"]
+analysis-paths: ["analysis"]
+test-paths: ["tests"]
+data-paths: ["data"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+docs-paths: ["docs"]
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_modules"
+
+models:
+  +materialized: table
+  +schema: dbt_output

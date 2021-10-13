@@ -1,0 +1,803 @@
+2021-10-13 16:57:33.627761 (MainThread): Running with dbt=0.19.1
+2021-10-13 16:57:33.694062 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.list.ListTask'>, debug=False, defer=None, exclude=None, log_cache_events=False, log_format='default', models=None, output='selector', partial_parse=None, profile=None, profiles_dir='.profiles', project_dir=None, record_timing_info=None, resource_types=[], rpc_method=None, select=None, selector_name=None, single_threaded=True, state=None, strict=False, target=None, test_new_parser=False, use_cache=True, use_colors=None, vars='{}', warn_error=False, which='list', write_json=True)
+2021-10-13 16:57:33.695387 (MainThread): Tracking: do not track
+2021-10-13 16:57:33.706998 (MainThread): Partial parsing not enabled
+2021-10-13 16:57:33.707890 (MainThread): Parsing macros/adapters.sql
+2021-10-13 16:57:33.733101 (MainThread): Parsing macros/catalog.sql
+2021-10-13 16:57:33.735720 (MainThread): Parsing macros/relations.sql
+2021-10-13 16:57:33.737349 (MainThread): Parsing macros/materializations/snapshot_merge.sql
+2021-10-13 16:57:33.740608 (MainThread): Parsing macros/core.sql
+2021-10-13 16:57:33.745757 (MainThread): Parsing macros/adapters/common.sql
+2021-10-13 16:57:33.791014 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2021-10-13 16:57:33.793569 (MainThread): Parsing macros/etc/get_custom_database.sql
+2021-10-13 16:57:33.795203 (MainThread): Parsing macros/etc/datetime.sql
+2021-10-13 16:57:33.803858 (MainThread): Parsing macros/etc/is_incremental.sql
+2021-10-13 16:57:33.805549 (MainThread): Parsing macros/etc/query.sql
+2021-10-13 16:57:33.806643 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2021-10-13 16:57:33.807650 (MainThread): Parsing macros/materializations/helpers.sql
+2021-10-13 16:57:33.816553 (MainThread): Parsing macros/materializations/seed/seed.sql
+2021-10-13 16:57:33.838019 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-10-13 16:57:33.839855 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2021-10-13 16:57:33.874439 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2021-10-13 16:57:33.893219 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2021-10-13 16:57:33.899344 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2021-10-13 16:57:33.901432 (MainThread): Parsing macros/materializations/common/merge.sql
+2021-10-13 16:57:33.915196 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-10-13 16:57:33.920390 (MainThread): Parsing macros/materializations/view/view.sql
+2021-10-13 16:57:33.928739 (MainThread): Parsing macros/materializations/table/table.sql
+2021-10-13 16:57:33.936328 (MainThread): Parsing macros/schema_tests/unique.sql
+2021-10-13 16:57:33.938697 (MainThread): Parsing macros/schema_tests/not_null.sql
+2021-10-13 16:57:33.940266 (MainThread): Parsing macros/schema_tests/relationships.sql
+2021-10-13 16:57:33.942466 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2021-10-13 16:57:33.949976 (MainThread): Partial parsing not enabled
+2021-10-13 16:57:34.008819 (MainThread): Acquiring new postgres connection "model.dbt_project.test_model".
+2021-10-13 16:57:34.064790 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2021-10-13 16:57:34.065045 (MainThread): Found 1 model, 0 tests, 0 snapshots, 0 analyses, 138 macros, 0 operations, 0 seed files, 0 sources, 0 exposures
+2021-10-13 16:57:34.065367 (MainThread): No nodes selected!
+2021-10-13 16:57:34.065695 (MainThread): Flushing usage events
+2021-10-13 16:57:34.066016 (MainThread): Connection 'model.dbt_project.test_model' was properly closed.
+2021-10-13 16:59:43.032315 (MainThread): Running with dbt=0.19.1
+2021-10-13 16:59:43.105906 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.list.ListTask'>, debug=False, defer=None, exclude=None, log_cache_events=False, log_format='default', models=None, output='selector', partial_parse=None, profile=None, profiles_dir='.profiles', project_dir=None, record_timing_info=None, resource_types=[], rpc_method=None, select=None, selector_name=None, single_threaded=True, state=None, strict=False, target=None, test_new_parser=False, use_cache=True, use_colors=None, vars='{}', warn_error=False, which='list', write_json=True)
+2021-10-13 16:59:43.106905 (MainThread): Tracking: do not track
+2021-10-13 16:59:43.118232 (MainThread): Partial parsing not enabled
+2021-10-13 16:59:43.119431 (MainThread): Parsing macros/adapters.sql
+2021-10-13 16:59:43.143454 (MainThread): Parsing macros/catalog.sql
+2021-10-13 16:59:43.145805 (MainThread): Parsing macros/relations.sql
+2021-10-13 16:59:43.147300 (MainThread): Parsing macros/materializations/snapshot_merge.sql
+2021-10-13 16:59:43.150373 (MainThread): Parsing macros/core.sql
+2021-10-13 16:59:43.155015 (MainThread): Parsing macros/adapters/common.sql
+2021-10-13 16:59:43.205103 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2021-10-13 16:59:43.207554 (MainThread): Parsing macros/etc/get_custom_database.sql
+2021-10-13 16:59:43.209652 (MainThread): Parsing macros/etc/datetime.sql
+2021-10-13 16:59:43.219091 (MainThread): Parsing macros/etc/is_incremental.sql
+2021-10-13 16:59:43.220879 (MainThread): Parsing macros/etc/query.sql
+2021-10-13 16:59:43.221988 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2021-10-13 16:59:43.222988 (MainThread): Parsing macros/materializations/helpers.sql
+2021-10-13 16:59:43.233376 (MainThread): Parsing macros/materializations/seed/seed.sql
+2021-10-13 16:59:43.256013 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-10-13 16:59:43.259800 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2021-10-13 16:59:43.294205 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2021-10-13 16:59:43.317132 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2021-10-13 16:59:43.325244 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2021-10-13 16:59:43.327159 (MainThread): Parsing macros/materializations/common/merge.sql
+2021-10-13 16:59:43.340655 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-10-13 16:59:43.346284 (MainThread): Parsing macros/materializations/view/view.sql
+2021-10-13 16:59:43.353215 (MainThread): Parsing macros/materializations/table/table.sql
+2021-10-13 16:59:43.360052 (MainThread): Parsing macros/schema_tests/unique.sql
+2021-10-13 16:59:43.362082 (MainThread): Parsing macros/schema_tests/not_null.sql
+2021-10-13 16:59:43.363615 (MainThread): Parsing macros/schema_tests/relationships.sql
+2021-10-13 16:59:43.365766 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2021-10-13 16:59:43.375540 (MainThread): Partial parsing not enabled
+2021-10-13 16:59:43.436897 (MainThread): Acquiring new postgres connection "model.dbt_project.test_model".
+2021-10-13 16:59:43.496141 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2021-10-13 16:59:43.496439 (MainThread): Found 1 model, 0 tests, 0 snapshots, 0 analyses, 138 macros, 0 operations, 0 seed files, 0 sources, 0 exposures
+2021-10-13 16:59:43.496818 (MainThread): No nodes selected!
+2021-10-13 16:59:43.497097 (MainThread): Flushing usage events
+2021-10-13 16:59:43.497236 (MainThread): Connection 'model.dbt_project.test_model' was properly closed.
+2021-10-13 17:36:08.570152 (MainThread): Running with dbt=0.19.1
+2021-10-13 17:36:08.659845 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.list.ListTask'>, debug=False, defer=None, exclude=None, log_cache_events=False, log_format='default', models=None, output='selector', partial_parse=None, profile=None, profiles_dir='.profiles', project_dir=None, record_timing_info=None, resource_types=[], rpc_method=None, select=None, selector_name=None, single_threaded=True, state=None, strict=False, target=None, test_new_parser=False, use_cache=True, use_colors=None, vars='{}', warn_error=False, which='list', write_json=True)
+2021-10-13 17:36:08.662228 (MainThread): Tracking: do not track
+2021-10-13 17:36:08.673951 (MainThread): Partial parsing not enabled
+2021-10-13 17:36:08.676303 (MainThread): Parsing macros/adapters.sql
+2021-10-13 17:36:08.700878 (MainThread): Parsing macros/catalog.sql
+2021-10-13 17:36:08.703592 (MainThread): Parsing macros/relations.sql
+2021-10-13 17:36:08.706174 (MainThread): Parsing macros/materializations/snapshot_merge.sql
+2021-10-13 17:36:08.712530 (MainThread): Parsing macros/core.sql
+2021-10-13 17:36:08.718095 (MainThread): Parsing macros/adapters/common.sql
+2021-10-13 17:36:08.764024 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2021-10-13 17:36:08.767988 (MainThread): Parsing macros/etc/get_custom_database.sql
+2021-10-13 17:36:08.770733 (MainThread): Parsing macros/etc/datetime.sql
+2021-10-13 17:36:08.780321 (MainThread): Parsing macros/etc/is_incremental.sql
+2021-10-13 17:36:08.782455 (MainThread): Parsing macros/etc/query.sql
+2021-10-13 17:36:08.783807 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2021-10-13 17:36:08.785059 (MainThread): Parsing macros/materializations/helpers.sql
+2021-10-13 17:36:08.795140 (MainThread): Parsing macros/materializations/seed/seed.sql
+2021-10-13 17:36:08.818113 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-10-13 17:36:08.821317 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2021-10-13 17:36:08.853713 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2021-10-13 17:36:08.875791 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2021-10-13 17:36:08.882849 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2021-10-13 17:36:08.885182 (MainThread): Parsing macros/materializations/common/merge.sql
+2021-10-13 17:36:08.899510 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-10-13 17:36:08.905614 (MainThread): Parsing macros/materializations/view/view.sql
+2021-10-13 17:36:08.913236 (MainThread): Parsing macros/materializations/table/table.sql
+2021-10-13 17:36:08.920374 (MainThread): Parsing macros/schema_tests/unique.sql
+2021-10-13 17:36:08.923877 (MainThread): Parsing macros/schema_tests/not_null.sql
+2021-10-13 17:36:08.926731 (MainThread): Parsing macros/schema_tests/relationships.sql
+2021-10-13 17:36:08.929792 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2021-10-13 17:36:08.939145 (MainThread): Partial parsing not enabled
+2021-10-13 17:36:08.999602 (MainThread): Acquiring new postgres connection "model.dbt_project.test_model".
+2021-10-13 17:36:09.060972 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2021-10-13 17:36:09.061261 (MainThread): Found 1 model, 0 tests, 0 snapshots, 0 analyses, 138 macros, 0 operations, 0 seed files, 0 sources, 0 exposures
+2021-10-13 17:36:09.061564 (MainThread): No nodes selected!
+2021-10-13 17:36:09.061763 (MainThread): Flushing usage events
+2021-10-13 17:36:09.061909 (MainThread): Connection 'model.dbt_project.test_model' was properly closed.
+2021-10-13 17:42:23.462742 (MainThread): Running with dbt=0.19.1
+2021-10-13 17:42:23.532342 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.run.RunTask'>, debug=False, defer=None, exclude=None, fail_fast=False, full_refresh=False, log_cache_events=False, log_format='default', models=None, partial_parse=None, profile=None, profiles_dir='.profiles', project_dir=None, record_timing_info=None, rpc_method='run', selector_name=None, single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, use_colors=None, vars='{}', version_check=True, warn_error=False, which='run', write_json=True)
+2021-10-13 17:42:23.533420 (MainThread): Tracking: do not track
+2021-10-13 17:42:23.544685 (MainThread): Partial parsing not enabled
+2021-10-13 17:42:23.545851 (MainThread): Parsing macros/adapters.sql
+2021-10-13 17:42:23.566964 (MainThread): Parsing macros/catalog.sql
+2021-10-13 17:42:23.569620 (MainThread): Parsing macros/relations.sql
+2021-10-13 17:42:23.571230 (MainThread): Parsing macros/materializations/snapshot_merge.sql
+2021-10-13 17:42:23.573831 (MainThread): Parsing macros/core.sql
+2021-10-13 17:42:23.578013 (MainThread): Parsing macros/adapters/common.sql
+2021-10-13 17:42:23.622379 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2021-10-13 17:42:23.624642 (MainThread): Parsing macros/etc/get_custom_database.sql
+2021-10-13 17:42:23.626254 (MainThread): Parsing macros/etc/datetime.sql
+2021-10-13 17:42:23.634684 (MainThread): Parsing macros/etc/is_incremental.sql
+2021-10-13 17:42:23.636778 (MainThread): Parsing macros/etc/query.sql
+2021-10-13 17:42:23.637907 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2021-10-13 17:42:23.638863 (MainThread): Parsing macros/materializations/helpers.sql
+2021-10-13 17:42:23.647889 (MainThread): Parsing macros/materializations/seed/seed.sql
+2021-10-13 17:42:23.669348 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-10-13 17:42:23.671431 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2021-10-13 17:42:23.703577 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2021-10-13 17:42:23.722324 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2021-10-13 17:42:23.728703 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2021-10-13 17:42:23.730634 (MainThread): Parsing macros/materializations/common/merge.sql
+2021-10-13 17:42:23.744171 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-10-13 17:42:23.749277 (MainThread): Parsing macros/materializations/view/view.sql
+2021-10-13 17:42:23.757776 (MainThread): Parsing macros/materializations/table/table.sql
+2021-10-13 17:42:23.764488 (MainThread): Parsing macros/schema_tests/unique.sql
+2021-10-13 17:42:23.766190 (MainThread): Parsing macros/schema_tests/not_null.sql
+2021-10-13 17:42:23.767770 (MainThread): Parsing macros/schema_tests/relationships.sql
+2021-10-13 17:42:23.770024 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2021-10-13 17:42:23.777870 (MainThread): Partial parsing not enabled
+2021-10-13 17:42:23.833546 (MainThread): Acquiring new postgres connection "model.dbt_project.total_films".
+2021-10-13 17:42:23.842471 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2021-10-13 17:42:23.892153 (MainThread): Flushing usage events
+2021-10-13 17:42:23.892321 (MainThread): Connection 'model.dbt_project.total_films' was properly closed.
+2021-10-13 17:42:23.892414 (MainThread): Encountered an error:
+2021-10-13 17:42:23.892576 (MainThread): Compilation Error in model total_films (models/total_films.sql)
+  Model 'model.dbt_project.total_films' (models/total_films.sql) depends on a source named 'public.film' which was not found
+2021-10-13 17:42:23.905759 (MainThread): Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/dbt/main.py", line 125, in main
+    results, succeeded = handle_and_check(args)
+  File "/usr/local/lib/python3.8/site-packages/dbt/main.py", line 203, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/usr/local/lib/python3.8/site-packages/dbt/main.py", line 256, in run_from_args
+    results = task.run()
+  File "/usr/local/lib/python3.8/site-packages/dbt/task/runnable.py", line 406, in run
+    self._runtime_initialize()
+  File "/usr/local/lib/python3.8/site-packages/dbt/task/runnable.py", line 122, in _runtime_initialize
+    super()._runtime_initialize()
+  File "/usr/local/lib/python3.8/site-packages/dbt/task/runnable.py", line 79, in _runtime_initialize
+    self.load_manifest()
+  File "/usr/local/lib/python3.8/site-packages/dbt/task/runnable.py", line 66, in load_manifest
+    self.manifest = get_full_manifest(self.config)
+  File "/usr/local/lib/python3.8/site-packages/dbt/perf_utils.py", line 28, in get_full_manifest
+    return load_manifest(
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/manifest.py", line 862, in load_manifest
+    return ManifestLoader.load_all(config, macro_manifest, macro_hook)
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/manifest.py", line 444, in load_all
+    manifest = loader.create_manifest()
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/manifest.py", line 422, in create_manifest
+    self.process_manifest(manifest)
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/manifest.py", line 387, in process_manifest
+    process_sources(manifest, project_name)
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/manifest.py", line 820, in process_sources
+    _process_sources_for_node(manifest, current_project, node)
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/manifest.py", line 803, in _process_sources_for_node
+    invalid_source_fail_unless_test(
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/manifest.py", line 506, in invalid_source_fail_unless_test
+    source_target_not_found(
+  File "/usr/local/lib/python3.8/site-packages/dbt/exceptions.py", line 597, in source_target_not_found
+    raise_compiler_error(msg, model)
+  File "/usr/local/lib/python3.8/site-packages/dbt/exceptions.py", line 435, in raise_compiler_error
+    raise CompilationException(msg, node)
+dbt.exceptions.CompilationException: Compilation Error in model total_films (models/total_films.sql)
+  Model 'model.dbt_project.total_films' (models/total_films.sql) depends on a source named 'public.film' which was not found
+
+2021-10-13 17:43:29.898551 (MainThread): Running with dbt=0.19.1
+2021-10-13 17:43:29.966443 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.run.RunTask'>, debug=False, defer=None, exclude=None, fail_fast=False, full_refresh=False, log_cache_events=False, log_format='default', models=None, partial_parse=None, profile=None, profiles_dir='.profiles', project_dir=None, record_timing_info=None, rpc_method='run', selector_name=None, single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, use_colors=None, vars='{}', version_check=True, warn_error=False, which='run', write_json=True)
+2021-10-13 17:43:29.967643 (MainThread): Tracking: do not track
+2021-10-13 17:43:29.980204 (MainThread): Partial parsing not enabled
+2021-10-13 17:43:29.981630 (MainThread): Parsing macros/adapters.sql
+2021-10-13 17:43:30.005768 (MainThread): Parsing macros/catalog.sql
+2021-10-13 17:43:30.008151 (MainThread): Parsing macros/relations.sql
+2021-10-13 17:43:30.009570 (MainThread): Parsing macros/materializations/snapshot_merge.sql
+2021-10-13 17:43:30.011981 (MainThread): Parsing macros/core.sql
+2021-10-13 17:43:30.015924 (MainThread): Parsing macros/adapters/common.sql
+2021-10-13 17:43:30.062009 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2021-10-13 17:43:30.064049 (MainThread): Parsing macros/etc/get_custom_database.sql
+2021-10-13 17:43:30.065710 (MainThread): Parsing macros/etc/datetime.sql
+2021-10-13 17:43:30.075095 (MainThread): Parsing macros/etc/is_incremental.sql
+2021-10-13 17:43:30.076859 (MainThread): Parsing macros/etc/query.sql
+2021-10-13 17:43:30.078021 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2021-10-13 17:43:30.078966 (MainThread): Parsing macros/materializations/helpers.sql
+2021-10-13 17:43:30.088534 (MainThread): Parsing macros/materializations/seed/seed.sql
+2021-10-13 17:43:30.111942 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-10-13 17:43:30.114505 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2021-10-13 17:43:30.146444 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2021-10-13 17:43:30.164871 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2021-10-13 17:43:30.172019 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2021-10-13 17:43:30.173957 (MainThread): Parsing macros/materializations/common/merge.sql
+2021-10-13 17:43:30.187799 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-10-13 17:43:30.192858 (MainThread): Parsing macros/materializations/view/view.sql
+2021-10-13 17:43:30.200152 (MainThread): Parsing macros/materializations/table/table.sql
+2021-10-13 17:43:30.208324 (MainThread): Parsing macros/schema_tests/unique.sql
+2021-10-13 17:43:30.210070 (MainThread): Parsing macros/schema_tests/not_null.sql
+2021-10-13 17:43:30.211630 (MainThread): Parsing macros/schema_tests/relationships.sql
+2021-10-13 17:43:30.213547 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2021-10-13 17:43:30.221596 (MainThread): Partial parsing not enabled
+2021-10-13 17:43:30.277821 (MainThread): Acquiring new postgres connection "model.dbt_project.total_films".
+2021-10-13 17:43:30.286713 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2021-10-13 17:43:30.335949 (MainThread): Flushing usage events
+2021-10-13 17:43:30.336255 (MainThread): Connection 'model.dbt_project.total_films' was properly closed.
+2021-10-13 17:43:30.336435 (MainThread): Encountered an error:
+2021-10-13 17:43:30.336591 (MainThread): Compilation Error in model total_films (models/total_films.sql)
+  Model 'model.dbt_project.total_films' (models/total_films.sql) depends on a source named 'public.film' which was not found
+2021-10-13 17:43:30.337560 (MainThread): Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/dbt/main.py", line 125, in main
+    results, succeeded = handle_and_check(args)
+  File "/usr/local/lib/python3.8/site-packages/dbt/main.py", line 203, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/usr/local/lib/python3.8/site-packages/dbt/main.py", line 256, in run_from_args
+    results = task.run()
+  File "/usr/local/lib/python3.8/site-packages/dbt/task/runnable.py", line 406, in run
+    self._runtime_initialize()
+  File "/usr/local/lib/python3.8/site-packages/dbt/task/runnable.py", line 122, in _runtime_initialize
+    super()._runtime_initialize()
+  File "/usr/local/lib/python3.8/site-packages/dbt/task/runnable.py", line 79, in _runtime_initialize
+    self.load_manifest()
+  File "/usr/local/lib/python3.8/site-packages/dbt/task/runnable.py", line 66, in load_manifest
+    self.manifest = get_full_manifest(self.config)
+  File "/usr/local/lib/python3.8/site-packages/dbt/perf_utils.py", line 28, in get_full_manifest
+    return load_manifest(
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/manifest.py", line 862, in load_manifest
+    return ManifestLoader.load_all(config, macro_manifest, macro_hook)
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/manifest.py", line 444, in load_all
+    manifest = loader.create_manifest()
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/manifest.py", line 422, in create_manifest
+    self.process_manifest(manifest)
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/manifest.py", line 387, in process_manifest
+    process_sources(manifest, project_name)
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/manifest.py", line 820, in process_sources
+    _process_sources_for_node(manifest, current_project, node)
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/manifest.py", line 803, in _process_sources_for_node
+    invalid_source_fail_unless_test(
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/manifest.py", line 506, in invalid_source_fail_unless_test
+    source_target_not_found(
+  File "/usr/local/lib/python3.8/site-packages/dbt/exceptions.py", line 597, in source_target_not_found
+    raise_compiler_error(msg, model)
+  File "/usr/local/lib/python3.8/site-packages/dbt/exceptions.py", line 435, in raise_compiler_error
+    raise CompilationException(msg, node)
+dbt.exceptions.CompilationException: Compilation Error in model total_films (models/total_films.sql)
+  Model 'model.dbt_project.total_films' (models/total_films.sql) depends on a source named 'public.film' which was not found
+
+2021-10-13 17:44:24.473180 (MainThread): Running with dbt=0.19.1
+2021-10-13 17:44:24.544507 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.run.RunTask'>, debug=False, defer=None, exclude=None, fail_fast=False, full_refresh=False, log_cache_events=False, log_format='default', models=None, partial_parse=None, profile=None, profiles_dir='.profiles', project_dir=None, record_timing_info=None, rpc_method='run', selector_name=None, single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, use_colors=None, vars='{}', version_check=True, warn_error=False, which='run', write_json=True)
+2021-10-13 17:44:24.545688 (MainThread): Tracking: do not track
+2021-10-13 17:44:24.557770 (MainThread): Partial parsing not enabled
+2021-10-13 17:44:24.559101 (MainThread): Parsing macros/adapters.sql
+2021-10-13 17:44:24.582031 (MainThread): Parsing macros/catalog.sql
+2021-10-13 17:44:24.584487 (MainThread): Parsing macros/relations.sql
+2021-10-13 17:44:24.586560 (MainThread): Parsing macros/materializations/snapshot_merge.sql
+2021-10-13 17:44:24.589279 (MainThread): Parsing macros/core.sql
+2021-10-13 17:44:24.593375 (MainThread): Parsing macros/adapters/common.sql
+2021-10-13 17:44:24.638661 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2021-10-13 17:44:24.640736 (MainThread): Parsing macros/etc/get_custom_database.sql
+2021-10-13 17:44:24.642548 (MainThread): Parsing macros/etc/datetime.sql
+2021-10-13 17:44:24.651177 (MainThread): Parsing macros/etc/is_incremental.sql
+2021-10-13 17:44:24.653573 (MainThread): Parsing macros/etc/query.sql
+2021-10-13 17:44:24.654875 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2021-10-13 17:44:24.655916 (MainThread): Parsing macros/materializations/helpers.sql
+2021-10-13 17:44:24.664842 (MainThread): Parsing macros/materializations/seed/seed.sql
+2021-10-13 17:44:24.685582 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-10-13 17:44:24.688039 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2021-10-13 17:44:24.720867 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2021-10-13 17:44:24.739427 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2021-10-13 17:44:24.745536 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2021-10-13 17:44:24.747439 (MainThread): Parsing macros/materializations/common/merge.sql
+2021-10-13 17:44:24.761497 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-10-13 17:44:24.766601 (MainThread): Parsing macros/materializations/view/view.sql
+2021-10-13 17:44:24.776458 (MainThread): Parsing macros/materializations/table/table.sql
+2021-10-13 17:44:24.785065 (MainThread): Parsing macros/schema_tests/unique.sql
+2021-10-13 17:44:24.787693 (MainThread): Parsing macros/schema_tests/not_null.sql
+2021-10-13 17:44:24.789524 (MainThread): Parsing macros/schema_tests/relationships.sql
+2021-10-13 17:44:24.791687 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2021-10-13 17:44:24.799770 (MainThread): Partial parsing not enabled
+2021-10-13 17:44:24.857969 (MainThread): Acquiring new postgres connection "model.dbt_project.total_films".
+2021-10-13 17:44:24.867090 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2021-10-13 17:44:24.890158 (MainThread): Flushing usage events
+2021-10-13 17:44:24.890376 (MainThread): Connection 'model.dbt_project.total_films' was properly closed.
+2021-10-13 17:44:24.890478 (MainThread): Encountered an error:
+2021-10-13 17:44:24.890658 (MainThread): Compilation Error
+  dbt found two resources with the name "public_inventory". Since these resources have the same name,
+  dbt will be unable to find the correct resource when source("public", "inventory") is used. To fix this,
+  change the name of one of these resources:
+  - source.dbt_project.public.inventory (sources/sources.yml)
+  - source.dbt_project.public.inventory (sources/sources.yml)
+2021-10-13 17:44:24.903352 (MainThread): Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/dbt/main.py", line 125, in main
+    results, succeeded = handle_and_check(args)
+  File "/usr/local/lib/python3.8/site-packages/dbt/main.py", line 203, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/usr/local/lib/python3.8/site-packages/dbt/main.py", line 256, in run_from_args
+    results = task.run()
+  File "/usr/local/lib/python3.8/site-packages/dbt/task/runnable.py", line 406, in run
+    self._runtime_initialize()
+  File "/usr/local/lib/python3.8/site-packages/dbt/task/runnable.py", line 122, in _runtime_initialize
+    super()._runtime_initialize()
+  File "/usr/local/lib/python3.8/site-packages/dbt/task/runnable.py", line 79, in _runtime_initialize
+    self.load_manifest()
+  File "/usr/local/lib/python3.8/site-packages/dbt/task/runnable.py", line 66, in load_manifest
+    self.manifest = get_full_manifest(self.config)
+  File "/usr/local/lib/python3.8/site-packages/dbt/perf_utils.py", line 28, in get_full_manifest
+    return load_manifest(
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/manifest.py", line 862, in load_manifest
+    return ManifestLoader.load_all(config, macro_manifest, macro_hook)
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/manifest.py", line 442, in load_all
+    loader.load(macro_manifest=macro_manifest)
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/manifest.py", line 290, in load
+    self.parse_project(project, macro_manifest, old_results)
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/manifest.py", line 237, in parse_project
+    self.parse_with_cache(path, parser, old_results)
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/manifest.py", line 188, in parse_with_cache
+    parser.parse_file(block)
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/schemas.py", line 674, in parse_file
+    parser.parse()
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/schemas.py", line 793, in parse
+    self.add_source_definitions(source)
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/schemas.py", line 820, in add_source_definitions
+    self.results.add_source(self.yaml.file, result)
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/results.py", line 93, in add_source
+    _check_duplicates(source, self.sources)
+  File "/usr/local/lib/python3.8/site-packages/dbt/parser/results.py", line 45, in _check_duplicates
+    raise_duplicate_resource_name(value, src[value.unique_id])
+  File "/usr/local/lib/python3.8/site-packages/dbt/exceptions.py", line 779, in raise_duplicate_resource_name
+    raise_compiler_error(
+  File "/usr/local/lib/python3.8/site-packages/dbt/exceptions.py", line 435, in raise_compiler_error
+    raise CompilationException(msg, node)
+dbt.exceptions.CompilationException: Compilation Error
+  dbt found two resources with the name "public_inventory". Since these resources have the same name,
+  dbt will be unable to find the correct resource when source("public", "inventory") is used. To fix this,
+  change the name of one of these resources:
+  - source.dbt_project.public.inventory (sources/sources.yml)
+  - source.dbt_project.public.inventory (sources/sources.yml)
+
+2021-10-13 17:46:07.952182 (MainThread): Running with dbt=0.19.1
+2021-10-13 17:46:08.021594 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.run.RunTask'>, debug=False, defer=None, exclude=None, fail_fast=False, full_refresh=False, log_cache_events=False, log_format='default', models=None, partial_parse=None, profile=None, profiles_dir='.profiles', project_dir=None, record_timing_info=None, rpc_method='run', selector_name=None, single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, use_colors=None, vars='{}', version_check=True, warn_error=False, which='run', write_json=True)
+2021-10-13 17:46:08.021969 (MainThread): Tracking: do not track
+2021-10-13 17:46:08.033338 (MainThread): Partial parsing not enabled
+2021-10-13 17:46:08.034177 (MainThread): Parsing macros/adapters.sql
+2021-10-13 17:46:08.058189 (MainThread): Parsing macros/catalog.sql
+2021-10-13 17:46:08.060474 (MainThread): Parsing macros/relations.sql
+2021-10-13 17:46:08.061770 (MainThread): Parsing macros/materializations/snapshot_merge.sql
+2021-10-13 17:46:08.064117 (MainThread): Parsing macros/core.sql
+2021-10-13 17:46:08.068488 (MainThread): Parsing macros/adapters/common.sql
+2021-10-13 17:46:08.116155 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2021-10-13 17:46:08.119519 (MainThread): Parsing macros/etc/get_custom_database.sql
+2021-10-13 17:46:08.121543 (MainThread): Parsing macros/etc/datetime.sql
+2021-10-13 17:46:08.129986 (MainThread): Parsing macros/etc/is_incremental.sql
+2021-10-13 17:46:08.131742 (MainThread): Parsing macros/etc/query.sql
+2021-10-13 17:46:08.132897 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2021-10-13 17:46:08.133806 (MainThread): Parsing macros/materializations/helpers.sql
+2021-10-13 17:46:08.143532 (MainThread): Parsing macros/materializations/seed/seed.sql
+2021-10-13 17:46:08.166612 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-10-13 17:46:08.169799 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2021-10-13 17:46:08.205908 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2021-10-13 17:46:08.228295 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2021-10-13 17:46:08.237042 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2021-10-13 17:46:08.239070 (MainThread): Parsing macros/materializations/common/merge.sql
+2021-10-13 17:46:08.255413 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-10-13 17:46:08.261048 (MainThread): Parsing macros/materializations/view/view.sql
+2021-10-13 17:46:08.267915 (MainThread): Parsing macros/materializations/table/table.sql
+2021-10-13 17:46:08.275164 (MainThread): Parsing macros/schema_tests/unique.sql
+2021-10-13 17:46:08.276901 (MainThread): Parsing macros/schema_tests/not_null.sql
+2021-10-13 17:46:08.278404 (MainThread): Parsing macros/schema_tests/relationships.sql
+2021-10-13 17:46:08.281432 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2021-10-13 17:46:08.291292 (MainThread): Partial parsing not enabled
+2021-10-13 17:46:08.348398 (MainThread): Acquiring new postgres connection "model.dbt_project.total_films".
+2021-10-13 17:46:08.358191 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2021-10-13 17:46:08.434012 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2021-10-13 17:46:08.434331 (MainThread): Found 1 model, 0 tests, 0 snapshots, 0 analyses, 138 macros, 0 operations, 0 seed files, 15 sources, 0 exposures
+2021-10-13 17:46:08.435840 (MainThread): 
+2021-10-13 17:46:08.436463 (MainThread): Acquiring new postgres connection "master".
+2021-10-13 17:46:08.437305 (ThreadPoolExecutor-0_0): Acquiring new postgres connection "list_dvdrental".
+2021-10-13 17:46:08.447468 (ThreadPoolExecutor-0_0): Using postgres connection "list_dvdrental".
+2021-10-13 17:46:08.447612 (ThreadPoolExecutor-0_0): On list_dvdrental: /* {"app": "dbt", "dbt_version": "0.19.1", "profile_name": "local", "target_name": "default", "connection_name": "list_dvdrental"} */
+
+    select distinct nspname from pg_namespace
+  
+2021-10-13 17:46:08.447697 (ThreadPoolExecutor-0_0): Opening a new connection, currently in state init
+2021-10-13 17:46:08.459000 (ThreadPoolExecutor-0_0): Got an error when attempting to open a postgres connection: 'could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5555?
+could not connect to server: Cannot assign requested address
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5555?
+'
+2021-10-13 17:46:08.459193 (ThreadPoolExecutor-0_0): Error running SQL: /* {"app": "dbt", "dbt_version": "0.19.1", "profile_name": "local", "target_name": "default", "connection_name": "list_dvdrental"} */
+
+    select distinct nspname from pg_namespace
+  
+2021-10-13 17:46:08.459281 (ThreadPoolExecutor-0_0): Rolling back transaction.
+2021-10-13 17:46:08.459399 (ThreadPoolExecutor-0_0): Error running SQL: macro list_schemas
+2021-10-13 17:46:08.459464 (ThreadPoolExecutor-0_0): Rolling back transaction.
+2021-10-13 17:46:08.459557 (ThreadPoolExecutor-0_0): On list_dvdrental: No close available on handle
+2021-10-13 17:46:08.460570 (MainThread): Connection 'master' was properly closed.
+2021-10-13 17:46:08.460768 (MainThread): Connection 'list_dvdrental' was properly closed.
+2021-10-13 17:46:08.460911 (MainThread): ERROR: Database Error
+  could not connect to server: Connection refused
+  	Is the server running on host "localhost" (127.0.0.1) and accepting
+  	TCP/IP connections on port 5555?
+  could not connect to server: Cannot assign requested address
+  	Is the server running on host "localhost" (::1) and accepting
+  	TCP/IP connections on port 5555?
+  
+2021-10-13 17:46:08.461239 (MainThread): Flushing usage events
+2021-10-13 17:50:56.902711 (MainThread): Running with dbt=0.19.1
+2021-10-13 17:50:56.970698 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.run.RunTask'>, debug=False, defer=None, exclude=None, fail_fast=False, full_refresh=False, log_cache_events=False, log_format='default', models=None, partial_parse=None, profile=None, profiles_dir='.profiles', project_dir=None, record_timing_info=None, rpc_method='run', selector_name=None, single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, use_colors=None, vars='{}', version_check=True, warn_error=False, which='run', write_json=True)
+2021-10-13 17:50:56.971168 (MainThread): Tracking: do not track
+2021-10-13 17:50:56.983437 (MainThread): Partial parsing not enabled
+2021-10-13 17:50:56.984616 (MainThread): Parsing macros/adapters.sql
+2021-10-13 17:50:57.010778 (MainThread): Parsing macros/catalog.sql
+2021-10-13 17:50:57.013304 (MainThread): Parsing macros/relations.sql
+2021-10-13 17:50:57.014818 (MainThread): Parsing macros/materializations/snapshot_merge.sql
+2021-10-13 17:50:57.017624 (MainThread): Parsing macros/core.sql
+2021-10-13 17:50:57.022287 (MainThread): Parsing macros/adapters/common.sql
+2021-10-13 17:50:57.068506 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2021-10-13 17:50:57.070654 (MainThread): Parsing macros/etc/get_custom_database.sql
+2021-10-13 17:50:57.072429 (MainThread): Parsing macros/etc/datetime.sql
+2021-10-13 17:50:57.080781 (MainThread): Parsing macros/etc/is_incremental.sql
+2021-10-13 17:50:57.082515 (MainThread): Parsing macros/etc/query.sql
+2021-10-13 17:50:57.083612 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2021-10-13 17:50:57.085116 (MainThread): Parsing macros/materializations/helpers.sql
+2021-10-13 17:50:57.094038 (MainThread): Parsing macros/materializations/seed/seed.sql
+2021-10-13 17:50:57.114892 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-10-13 17:50:57.116630 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2021-10-13 17:50:57.149052 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2021-10-13 17:50:57.167189 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2021-10-13 17:50:57.174687 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2021-10-13 17:50:57.176594 (MainThread): Parsing macros/materializations/common/merge.sql
+2021-10-13 17:50:57.190403 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-10-13 17:50:57.195708 (MainThread): Parsing macros/materializations/view/view.sql
+2021-10-13 17:50:57.203627 (MainThread): Parsing macros/materializations/table/table.sql
+2021-10-13 17:50:57.211167 (MainThread): Parsing macros/schema_tests/unique.sql
+2021-10-13 17:50:57.212846 (MainThread): Parsing macros/schema_tests/not_null.sql
+2021-10-13 17:50:57.214364 (MainThread): Parsing macros/schema_tests/relationships.sql
+2021-10-13 17:50:57.216153 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2021-10-13 17:50:57.224019 (MainThread): Partial parsing not enabled
+2021-10-13 17:50:57.280357 (MainThread): Acquiring new postgres connection "model.dbt_project.total_films".
+2021-10-13 17:50:57.289222 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2021-10-13 17:50:57.362229 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2021-10-13 17:50:57.362552 (MainThread): Found 1 model, 0 tests, 0 snapshots, 0 analyses, 138 macros, 0 operations, 0 seed files, 15 sources, 0 exposures
+2021-10-13 17:50:57.363794 (MainThread): 
+2021-10-13 17:50:57.364539 (MainThread): Acquiring new postgres connection "master".
+2021-10-13 17:50:57.365367 (ThreadPoolExecutor-0_0): Acquiring new postgres connection "list_dvdrental".
+2021-10-13 17:50:57.375919 (ThreadPoolExecutor-0_0): Using postgres connection "list_dvdrental".
+2021-10-13 17:50:57.376066 (ThreadPoolExecutor-0_0): On list_dvdrental: /* {"app": "dbt", "dbt_version": "0.19.1", "profile_name": "local", "target_name": "default", "connection_name": "list_dvdrental"} */
+
+    select distinct nspname from pg_namespace
+  
+2021-10-13 17:50:57.376149 (ThreadPoolExecutor-0_0): Opening a new connection, currently in state init
+2021-10-13 17:50:57.376749 (ThreadPoolExecutor-0_0): Got an error when attempting to open a postgres connection: 'could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5555?
+could not connect to server: Cannot assign requested address
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5555?
+'
+2021-10-13 17:50:57.376857 (ThreadPoolExecutor-0_0): Error running SQL: /* {"app": "dbt", "dbt_version": "0.19.1", "profile_name": "local", "target_name": "default", "connection_name": "list_dvdrental"} */
+
+    select distinct nspname from pg_namespace
+  
+2021-10-13 17:50:57.376936 (ThreadPoolExecutor-0_0): Rolling back transaction.
+2021-10-13 17:50:57.377026 (ThreadPoolExecutor-0_0): Error running SQL: macro list_schemas
+2021-10-13 17:50:57.377080 (ThreadPoolExecutor-0_0): Rolling back transaction.
+2021-10-13 17:50:57.377151 (ThreadPoolExecutor-0_0): On list_dvdrental: No close available on handle
+2021-10-13 17:50:57.377784 (MainThread): Connection 'master' was properly closed.
+2021-10-13 17:50:57.377895 (MainThread): Connection 'list_dvdrental' was properly closed.
+2021-10-13 17:50:57.377985 (MainThread): ERROR: Database Error
+  could not connect to server: Connection refused
+  	Is the server running on host "localhost" (127.0.0.1) and accepting
+  	TCP/IP connections on port 5555?
+  could not connect to server: Cannot assign requested address
+  	Is the server running on host "localhost" (::1) and accepting
+  	TCP/IP connections on port 5555?
+  
+2021-10-13 17:50:57.378231 (MainThread): Flushing usage events
+2021-10-13 17:51:42.888797 (MainThread): Running with dbt=0.19.1
+2021-10-13 17:51:42.958239 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.run.RunTask'>, debug=False, defer=None, exclude=None, fail_fast=False, full_refresh=False, log_cache_events=False, log_format='default', models=None, partial_parse=None, profile=None, profiles_dir='.profiles', project_dir=None, record_timing_info=None, rpc_method='run', selector_name=None, single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, use_colors=None, vars='{}', version_check=True, warn_error=False, which='run', write_json=True)
+2021-10-13 17:51:42.958596 (MainThread): Tracking: do not track
+2021-10-13 17:51:42.970207 (MainThread): Partial parsing not enabled
+2021-10-13 17:51:42.971212 (MainThread): Parsing macros/adapters.sql
+2021-10-13 17:51:42.993820 (MainThread): Parsing macros/catalog.sql
+2021-10-13 17:51:42.996154 (MainThread): Parsing macros/relations.sql
+2021-10-13 17:51:42.997570 (MainThread): Parsing macros/materializations/snapshot_merge.sql
+2021-10-13 17:51:42.999938 (MainThread): Parsing macros/core.sql
+2021-10-13 17:51:43.004843 (MainThread): Parsing macros/adapters/common.sql
+2021-10-13 17:51:43.051554 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2021-10-13 17:51:43.054702 (MainThread): Parsing macros/etc/get_custom_database.sql
+2021-10-13 17:51:43.057233 (MainThread): Parsing macros/etc/datetime.sql
+2021-10-13 17:51:43.066097 (MainThread): Parsing macros/etc/is_incremental.sql
+2021-10-13 17:51:43.068418 (MainThread): Parsing macros/etc/query.sql
+2021-10-13 17:51:43.069841 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2021-10-13 17:51:43.071041 (MainThread): Parsing macros/materializations/helpers.sql
+2021-10-13 17:51:43.080469 (MainThread): Parsing macros/materializations/seed/seed.sql
+2021-10-13 17:51:43.102098 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-10-13 17:51:43.104911 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2021-10-13 17:51:43.135887 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2021-10-13 17:51:43.155788 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2021-10-13 17:51:43.162884 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2021-10-13 17:51:43.164831 (MainThread): Parsing macros/materializations/common/merge.sql
+2021-10-13 17:51:43.178462 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-10-13 17:51:43.184840 (MainThread): Parsing macros/materializations/view/view.sql
+2021-10-13 17:51:43.191645 (MainThread): Parsing macros/materializations/table/table.sql
+2021-10-13 17:51:43.198147 (MainThread): Parsing macros/schema_tests/unique.sql
+2021-10-13 17:51:43.199794 (MainThread): Parsing macros/schema_tests/not_null.sql
+2021-10-13 17:51:43.201973 (MainThread): Parsing macros/schema_tests/relationships.sql
+2021-10-13 17:51:43.203955 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2021-10-13 17:51:43.212680 (MainThread): Partial parsing not enabled
+2021-10-13 17:51:43.266994 (MainThread): Acquiring new postgres connection "model.dbt_project.total_films".
+2021-10-13 17:51:43.276531 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2021-10-13 17:51:43.349848 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2021-10-13 17:51:43.350183 (MainThread): Found 1 model, 0 tests, 0 snapshots, 0 analyses, 138 macros, 0 operations, 0 seed files, 15 sources, 0 exposures
+2021-10-13 17:51:43.352251 (MainThread): 
+2021-10-13 17:51:43.352887 (MainThread): Acquiring new postgres connection "master".
+2021-10-13 17:51:43.353617 (ThreadPoolExecutor-0_0): Acquiring new postgres connection "list_dvdrental".
+2021-10-13 17:51:43.362603 (ThreadPoolExecutor-0_0): Using postgres connection "list_dvdrental".
+2021-10-13 17:51:43.362716 (ThreadPoolExecutor-0_0): On list_dvdrental: /* {"app": "dbt", "dbt_version": "0.19.1", "profile_name": "local", "target_name": "default", "connection_name": "list_dvdrental"} */
+
+    select distinct nspname from pg_namespace
+  
+2021-10-13 17:51:43.362790 (ThreadPoolExecutor-0_0): Opening a new connection, currently in state init
+2021-10-13 17:51:43.365548 (ThreadPoolExecutor-0_0): Got an error when attempting to open a postgres connection: 'could not connect to server: Connection refused
+	Is the server running on host "db" (172.28.0.2) and accepting
+	TCP/IP connections on port 5555?
+'
+2021-10-13 17:51:43.365870 (ThreadPoolExecutor-0_0): Error running SQL: /* {"app": "dbt", "dbt_version": "0.19.1", "profile_name": "local", "target_name": "default", "connection_name": "list_dvdrental"} */
+
+    select distinct nspname from pg_namespace
+  
+2021-10-13 17:51:43.366030 (ThreadPoolExecutor-0_0): Rolling back transaction.
+2021-10-13 17:51:43.366166 (ThreadPoolExecutor-0_0): Error running SQL: macro list_schemas
+2021-10-13 17:51:43.366246 (ThreadPoolExecutor-0_0): Rolling back transaction.
+2021-10-13 17:51:43.366358 (ThreadPoolExecutor-0_0): On list_dvdrental: No close available on handle
+2021-10-13 17:51:43.367454 (MainThread): Connection 'master' was properly closed.
+2021-10-13 17:51:43.367702 (MainThread): Connection 'list_dvdrental' was properly closed.
+2021-10-13 17:51:43.368001 (MainThread): ERROR: Database Error
+  could not connect to server: Connection refused
+  	Is the server running on host "db" (172.28.0.2) and accepting
+  	TCP/IP connections on port 5555?
+  
+2021-10-13 17:51:43.368372 (MainThread): Flushing usage events
+2021-10-13 17:51:57.455558 (MainThread): Running with dbt=0.19.1
+2021-10-13 17:51:57.523513 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.run.RunTask'>, debug=False, defer=None, exclude=None, fail_fast=False, full_refresh=False, log_cache_events=False, log_format='default', models=None, partial_parse=None, profile=None, profiles_dir='.profiles', project_dir=None, record_timing_info=None, rpc_method='run', selector_name=None, single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, use_colors=None, vars='{}', version_check=True, warn_error=False, which='run', write_json=True)
+2021-10-13 17:51:57.523893 (MainThread): Tracking: do not track
+2021-10-13 17:51:57.535298 (MainThread): Partial parsing not enabled
+2021-10-13 17:51:57.536179 (MainThread): Parsing macros/adapters.sql
+2021-10-13 17:51:57.558848 (MainThread): Parsing macros/catalog.sql
+2021-10-13 17:51:57.561068 (MainThread): Parsing macros/relations.sql
+2021-10-13 17:51:57.562385 (MainThread): Parsing macros/materializations/snapshot_merge.sql
+2021-10-13 17:51:57.564847 (MainThread): Parsing macros/core.sql
+2021-10-13 17:51:57.569462 (MainThread): Parsing macros/adapters/common.sql
+2021-10-13 17:51:57.612133 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2021-10-13 17:51:57.614148 (MainThread): Parsing macros/etc/get_custom_database.sql
+2021-10-13 17:51:57.615907 (MainThread): Parsing macros/etc/datetime.sql
+2021-10-13 17:51:57.626431 (MainThread): Parsing macros/etc/is_incremental.sql
+2021-10-13 17:51:57.628314 (MainThread): Parsing macros/etc/query.sql
+2021-10-13 17:51:57.629403 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2021-10-13 17:51:57.630402 (MainThread): Parsing macros/materializations/helpers.sql
+2021-10-13 17:51:57.640118 (MainThread): Parsing macros/materializations/seed/seed.sql
+2021-10-13 17:51:57.663134 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-10-13 17:51:57.666439 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2021-10-13 17:51:57.699058 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2021-10-13 17:51:57.720801 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2021-10-13 17:51:57.726943 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2021-10-13 17:51:57.728789 (MainThread): Parsing macros/materializations/common/merge.sql
+2021-10-13 17:51:57.742660 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-10-13 17:51:57.747894 (MainThread): Parsing macros/materializations/view/view.sql
+2021-10-13 17:51:57.754820 (MainThread): Parsing macros/materializations/table/table.sql
+2021-10-13 17:51:57.761407 (MainThread): Parsing macros/schema_tests/unique.sql
+2021-10-13 17:51:57.763453 (MainThread): Parsing macros/schema_tests/not_null.sql
+2021-10-13 17:51:57.764950 (MainThread): Parsing macros/schema_tests/relationships.sql
+2021-10-13 17:51:57.766889 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2021-10-13 17:51:57.776320 (MainThread): Partial parsing not enabled
+2021-10-13 17:51:57.832657 (MainThread): Acquiring new postgres connection "model.dbt_project.total_films".
+2021-10-13 17:51:57.841849 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2021-10-13 17:51:57.914495 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2021-10-13 17:51:57.914780 (MainThread): Found 1 model, 0 tests, 0 snapshots, 0 analyses, 138 macros, 0 operations, 0 seed files, 15 sources, 0 exposures
+2021-10-13 17:51:57.915685 (MainThread): 
+2021-10-13 17:51:57.915976 (MainThread): Acquiring new postgres connection "master".
+2021-10-13 17:51:57.917224 (ThreadPoolExecutor-0_0): Acquiring new postgres connection "list_dvdrental".
+2021-10-13 17:51:57.927553 (ThreadPoolExecutor-0_0): Using postgres connection "list_dvdrental".
+2021-10-13 17:51:57.927704 (ThreadPoolExecutor-0_0): On list_dvdrental: /* {"app": "dbt", "dbt_version": "0.19.1", "profile_name": "local", "target_name": "default", "connection_name": "list_dvdrental"} */
+
+    select distinct nspname from pg_namespace
+  
+2021-10-13 17:51:57.927785 (ThreadPoolExecutor-0_0): Opening a new connection, currently in state init
+2021-10-13 17:51:57.940481 (ThreadPoolExecutor-0_0): SQL status: SELECT 5 in 0.01 seconds
+2021-10-13 17:51:57.944294 (ThreadPoolExecutor-0_0): On list_dvdrental: Close
+2021-10-13 17:51:57.944929 (ThreadPoolExecutor-0_0): Acquiring new postgres connection "create_dvdrental_public_dbt_output".
+2021-10-13 17:51:57.945176 (ThreadPoolExecutor-0_0): Acquiring new postgres connection "create_dvdrental_public_dbt_output".
+2021-10-13 17:51:57.945307 (ThreadPoolExecutor-0_0): Creating schema ""dvdrental"."public_dbt_output""
+2021-10-13 17:51:57.950689 (ThreadPoolExecutor-0_0): Using postgres connection "create_dvdrental_public_dbt_output".
+2021-10-13 17:51:57.950872 (ThreadPoolExecutor-0_0): On create_dvdrental_public_dbt_output: BEGIN
+2021-10-13 17:51:57.951008 (ThreadPoolExecutor-0_0): Opening a new connection, currently in state closed
+2021-10-13 17:51:57.954211 (ThreadPoolExecutor-0_0): SQL status: BEGIN in 0.00 seconds
+2021-10-13 17:51:57.954389 (ThreadPoolExecutor-0_0): Using postgres connection "create_dvdrental_public_dbt_output".
+2021-10-13 17:51:57.954469 (ThreadPoolExecutor-0_0): On create_dvdrental_public_dbt_output: /* {"app": "dbt", "dbt_version": "0.19.1", "profile_name": "local", "target_name": "default", "connection_name": "create_dvdrental_public_dbt_output"} */
+create schema if not exists "public_dbt_output"
+2021-10-13 17:51:57.955182 (ThreadPoolExecutor-0_0): SQL status: CREATE SCHEMA in 0.00 seconds
+2021-10-13 17:51:57.956202 (ThreadPoolExecutor-0_0): On create_dvdrental_public_dbt_output: COMMIT
+2021-10-13 17:51:57.956349 (ThreadPoolExecutor-0_0): Using postgres connection "create_dvdrental_public_dbt_output".
+2021-10-13 17:51:57.956436 (ThreadPoolExecutor-0_0): On create_dvdrental_public_dbt_output: COMMIT
+2021-10-13 17:51:57.958087 (ThreadPoolExecutor-0_0): SQL status: COMMIT in 0.00 seconds
+2021-10-13 17:51:57.958295 (ThreadPoolExecutor-0_0): On create_dvdrental_public_dbt_output: Close
+2021-10-13 17:51:57.960493 (ThreadPoolExecutor-1_0): Acquiring new postgres connection "list_dvdrental_public_dbt_output".
+2021-10-13 17:51:57.967371 (ThreadPoolExecutor-1_0): Using postgres connection "list_dvdrental_public_dbt_output".
+2021-10-13 17:51:57.967580 (ThreadPoolExecutor-1_0): On list_dvdrental_public_dbt_output: BEGIN
+2021-10-13 17:51:57.967784 (ThreadPoolExecutor-1_0): Opening a new connection, currently in state init
+2021-10-13 17:51:57.971756 (ThreadPoolExecutor-1_0): SQL status: BEGIN in 0.00 seconds
+2021-10-13 17:51:57.971941 (ThreadPoolExecutor-1_0): Using postgres connection "list_dvdrental_public_dbt_output".
+2021-10-13 17:51:57.972028 (ThreadPoolExecutor-1_0): On list_dvdrental_public_dbt_output: /* {"app": "dbt", "dbt_version": "0.19.1", "profile_name": "local", "target_name": "default", "connection_name": "list_dvdrental_public_dbt_output"} */
+select
+      'dvdrental' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public_dbt_output'
+    union all
+    select
+      'dvdrental' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public_dbt_output'
+  
+2021-10-13 17:51:57.974464 (ThreadPoolExecutor-1_0): SQL status: SELECT 0 in 0.00 seconds
+2021-10-13 17:51:57.974850 (ThreadPoolExecutor-1_0): On list_dvdrental_public_dbt_output: ROLLBACK
+2021-10-13 17:51:57.975395 (ThreadPoolExecutor-1_0): On list_dvdrental_public_dbt_output: Close
+2021-10-13 17:51:57.979948 (MainThread): Using postgres connection "master".
+2021-10-13 17:51:57.980078 (MainThread): On master: BEGIN
+2021-10-13 17:51:57.980173 (MainThread): Opening a new connection, currently in state init
+2021-10-13 17:51:57.983112 (MainThread): SQL status: BEGIN in 0.00 seconds
+2021-10-13 17:51:57.983260 (MainThread): Using postgres connection "master".
+2021-10-13 17:51:57.983341 (MainThread): On master: /* {"app": "dbt", "dbt_version": "0.19.1", "profile_name": "local", "target_name": "default", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+2021-10-13 17:51:58.140660 (MainThread): SQL status: SELECT 37 in 0.16 seconds
+2021-10-13 17:51:58.142006 (MainThread): On master: ROLLBACK
+2021-10-13 17:51:58.142621 (MainThread): Using postgres connection "master".
+2021-10-13 17:51:58.142711 (MainThread): On master: BEGIN
+2021-10-13 17:51:58.143386 (MainThread): SQL status: BEGIN in 0.00 seconds
+2021-10-13 17:51:58.143557 (MainThread): On master: COMMIT
+2021-10-13 17:51:58.143619 (MainThread): Using postgres connection "master".
+2021-10-13 17:51:58.143672 (MainThread): On master: COMMIT
+2021-10-13 17:51:58.143986 (MainThread): SQL status: COMMIT in 0.00 seconds
+2021-10-13 17:51:58.144075 (MainThread): On master: Close
+2021-10-13 17:51:58.144336 (MainThread): 17:51:58 | Concurrency: 4 threads (target='default')
+2021-10-13 17:51:58.144441 (MainThread): 17:51:58 | 
+2021-10-13 17:51:58.154130 (Thread-1): Began running node model.dbt_project.total_films
+2021-10-13 17:51:58.154519 (Thread-1): 17:51:58 | 1 of 1 START table model public_dbt_output.total_films............... [RUN]
+2021-10-13 17:51:58.155806 (Thread-1): Acquiring new postgres connection "model.dbt_project.total_films".
+2021-10-13 17:51:58.156084 (Thread-1): Compiling model.dbt_project.total_films
+2021-10-13 17:51:58.158718 (Thread-1): Writing injected SQL for node "model.dbt_project.total_films"
+2021-10-13 17:51:58.159072 (Thread-1): finished collecting timing info
+2021-10-13 17:51:58.179819 (Thread-1): Using postgres connection "model.dbt_project.total_films".
+2021-10-13 17:51:58.179998 (Thread-1): On model.dbt_project.total_films: /* {"app": "dbt", "dbt_version": "0.19.1", "profile_name": "local", "target_name": "default", "node_id": "model.dbt_project.total_films"} */
+drop table if exists "dvdrental"."public_dbt_output"."total_films__dbt_tmp" cascade
+2021-10-13 17:51:58.180102 (Thread-1): Opening a new connection, currently in state closed
+2021-10-13 17:51:58.183242 (Thread-1): SQL status: DROP TABLE in 0.00 seconds
+2021-10-13 17:51:58.186195 (Thread-1): Using postgres connection "model.dbt_project.total_films".
+2021-10-13 17:51:58.186403 (Thread-1): On model.dbt_project.total_films: /* {"app": "dbt", "dbt_version": "0.19.1", "profile_name": "local", "target_name": "default", "node_id": "model.dbt_project.total_films"} */
+drop table if exists "dvdrental"."public_dbt_output"."total_films__dbt_backup" cascade
+2021-10-13 17:51:58.186750 (Thread-1): SQL status: DROP TABLE in 0.00 seconds
+2021-10-13 17:51:58.199336 (Thread-1): Writing runtime SQL for node "model.dbt_project.total_films"
+2021-10-13 17:51:58.199781 (Thread-1): Using postgres connection "model.dbt_project.total_films".
+2021-10-13 17:51:58.199874 (Thread-1): On model.dbt_project.total_films: BEGIN
+2021-10-13 17:51:58.200158 (Thread-1): SQL status: BEGIN in 0.00 seconds
+2021-10-13 17:51:58.200245 (Thread-1): Using postgres connection "model.dbt_project.total_films".
+2021-10-13 17:51:58.200311 (Thread-1): On model.dbt_project.total_films: /* {"app": "dbt", "dbt_version": "0.19.1", "profile_name": "local", "target_name": "default", "node_id": "model.dbt_project.total_films"} */
+
+
+  create  table "dvdrental"."public_dbt_output"."total_films__dbt_tmp"
+  as (
+    -- this model creates a table called `total_films` in a pre-configured schema
+-- called `dbt_output` and populates it with an integer corresponding to the
+-- total number of rows in the table `public.film`
+select count(*) total_films
+from "dvdrental"."public"."film"
+  );
+2021-10-13 17:51:58.202754 (Thread-1): SQL status: SELECT 1 in 0.00 seconds
+2021-10-13 17:51:58.209938 (Thread-1): Using postgres connection "model.dbt_project.total_films".
+2021-10-13 17:51:58.210132 (Thread-1): On model.dbt_project.total_films: /* {"app": "dbt", "dbt_version": "0.19.1", "profile_name": "local", "target_name": "default", "node_id": "model.dbt_project.total_films"} */
+alter table "dvdrental"."public_dbt_output"."total_films__dbt_tmp" rename to "total_films"
+2021-10-13 17:51:58.210664 (Thread-1): SQL status: ALTER TABLE in 0.00 seconds
+2021-10-13 17:51:58.218344 (Thread-1): On model.dbt_project.total_films: COMMIT
+2021-10-13 17:51:58.218706 (Thread-1): Using postgres connection "model.dbt_project.total_films".
+2021-10-13 17:51:58.218797 (Thread-1): On model.dbt_project.total_films: COMMIT
+2021-10-13 17:51:58.220351 (Thread-1): SQL status: COMMIT in 0.00 seconds
+2021-10-13 17:51:58.224130 (Thread-1): Using postgres connection "model.dbt_project.total_films".
+2021-10-13 17:51:58.224297 (Thread-1): On model.dbt_project.total_films: /* {"app": "dbt", "dbt_version": "0.19.1", "profile_name": "local", "target_name": "default", "node_id": "model.dbt_project.total_films"} */
+drop table if exists "dvdrental"."public_dbt_output"."total_films__dbt_backup" cascade
+2021-10-13 17:51:58.224634 (Thread-1): SQL status: DROP TABLE in 0.00 seconds
+2021-10-13 17:51:58.225715 (Thread-1): finished collecting timing info
+2021-10-13 17:51:58.225866 (Thread-1): On model.dbt_project.total_films: Close
+2021-10-13 17:51:58.227530 (Thread-1): 17:51:58 | 1 of 1 OK created table model public_dbt_output.total_films.......... [SELECT 1 in 0.07s]
+2021-10-13 17:51:58.227690 (Thread-1): Finished running node model.dbt_project.total_films
+2021-10-13 17:51:58.229087 (MainThread): Acquiring new postgres connection "master".
+2021-10-13 17:51:58.229215 (MainThread): Using postgres connection "master".
+2021-10-13 17:51:58.229288 (MainThread): On master: BEGIN
+2021-10-13 17:51:58.229366 (MainThread): Opening a new connection, currently in state closed
+2021-10-13 17:51:58.232098 (MainThread): SQL status: BEGIN in 0.00 seconds
+2021-10-13 17:51:58.232249 (MainThread): On master: COMMIT
+2021-10-13 17:51:58.232358 (MainThread): Using postgres connection "master".
+2021-10-13 17:51:58.232430 (MainThread): On master: COMMIT
+2021-10-13 17:51:58.232901 (MainThread): SQL status: COMMIT in 0.00 seconds
+2021-10-13 17:51:58.233014 (MainThread): On master: Close
+2021-10-13 17:51:58.233375 (MainThread): 17:51:58 | 
+2021-10-13 17:51:58.233604 (MainThread): 17:51:58 | Finished running 1 table model in 0.32s.
+2021-10-13 17:51:58.233709 (MainThread): Connection 'master' was properly closed.
+2021-10-13 17:51:58.233775 (MainThread): Connection 'create_dvdrental_public_dbt_output' was properly closed.
+2021-10-13 17:51:58.233836 (MainThread): Connection 'model.dbt_project.total_films' was properly closed.
+2021-10-13 17:51:58.241298 (MainThread): 
+2021-10-13 17:51:58.241699 (MainThread): Completed successfully
+2021-10-13 17:51:58.241911 (MainThread): 
+Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+2021-10-13 17:51:58.242297 (MainThread): Flushing usage events

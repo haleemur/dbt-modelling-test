@@ -1,0 +1,16 @@
+config:
+  partial_parse: False
+  send_anonymous_usage_stats: False
+
+local:
+  target: default
+  outputs:
+    default:
+      type: postgres
+      threads: 4
+      database: dvdrental
+      schema: public
+      host: db
+      user: dbt
+      port: 5432
+      pass: dbt

@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: public
+    tables:
+      - name: category
+      - name: inventory
+      - name: film_category
+      - name: film
+      - name: language
+      - name: rental
+      - name: payment
+      - name: staff
+      - name: film_actor
+      - name: actor
+      - name: store
+      - name: country
+      - name: city
+      - name: address
+      - name: customer
