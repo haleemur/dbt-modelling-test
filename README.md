@@ -9,6 +9,49 @@ In this exercise, you will set up & teardown your docker environment by followin
 - For more information about dbt, please visit their (documentation site)[https://docs.getdbt.com/docs/introduction]. I also find the [`setting-up`](https://docs.getdbt.com/tutorial/setting-up) useful tutorial for beginners.
 - For more information about docker, please visit their (documentation site)[https://docs.docker.com/]
 
+## TLDR
+
+1. [setup](#set-up)
+```
+git clone https://github.com/haleemur/dbt-modelling-test.git
+cd dbt-modelling-test
+docker-compose build
+```
+2. Explore database & familiarize yourself with [database schema](#database-schema)
+```
+docker-compose up -d db
+psql -h localhost -U dbt -p 5555 -W dvdrental
+
+Password:
+psql (13.3 (Ubuntu 13.3-1.pgdg20.04+1), server 13.4 (Debian 13.4-1.pgdg110+1))
+Type "help" for help.
+
+dvdrental=# select count(*) from film;
+ count
+-------
+  1000
+(1 row)
+```
+
+3. Add solution model-files for the [4 data modelling questions](#exercise-questions) at the following locations for the sql models:
+```
+dbt-modelling-test/dbt_projects/models/monthly_top10_movies.sql
+dbt-modelling-test/dbt_projects/models/monthly_store_value.sql
+dbt-modelling-test/dbt_projects/models/top10_stores_2006.sql
+dbt-modelling-test/dbt_projects/models/customer_lifecycle.sql
+```
+
+4. [run dbt](#running-transformations) _& verify that the output tables have expected values. you can verify that by querying tables _
+```
+docker-compose run dbt run
+```
+
+5. [bring down the docker infrastructure](#stopping-docker-containers) & [remove the data base volume](#reset-the-database)
+```
+docker-compose down
+docker volume rm dbt-modelling-test_db-data
+```
+
 ## Database Schema
 
 The database is hosted locally using docker allowing you to execute queries against it.
@@ -124,8 +167,6 @@ docker volume rm dbt-modelling-test_db-data
 ```
 
 note that for this to work, all running containers need to be stopped (`docker-compose down` should do the trick)
-
-
 
 ## Connecting to the database
 
