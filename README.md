@@ -114,6 +114,16 @@ local     dbt-modelling-test_db-data
 ... (other volumes)
 ```
 
+to delete the volume named `dbt-modelling-test_db-data`, run the command
+
+```
+docker volume rm dbt-modelling-test_db-data
+```
+
+note that for this to work, all running containers need to be stopped (`docker-compose down` should do the trick)
+
+
+
 ## Connecting to the database
 
 You can connect to the database and inspect details from your host machine.
