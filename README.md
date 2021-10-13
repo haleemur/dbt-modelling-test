@@ -26,14 +26,17 @@ For each question, please write the dbt transformation in the folder dbt_project
 1. create a table called `monthly_top10_movies` that has the top 10 most popular movies by category for each month.
 2. create a table called `monthly_store_value` that has the average customer value & total sales per store by month
 3. create a table called `top10_stores_2006` that has the top 10 stores stores ordered by total sales in where the rental date is in 2006. Please refer (`ref`) to the table `monthly_store_value` when defining `yearly_top10_stores`
-4. [optional] create a table called `customer_lifecycle`, with a primary key of `customer_id` to provide a holistic view of the customers activitiy and should include:
+4. create a table called `customer_lifecycle`, with a primary key of `customer_id` to provide a holistic view of the customers activitiy and should include:
    - the revenue generated in teh first 30 days of the customer's lifecycle, with day 0 being their first rental date
    - the name of the first film they rented
    - the name of the last film they rented
    - last rental date
    - average time between rentals
    - total revenue
-   - any other interesting dimensions / facts you might want to include.
+
+### Discussion During Interview
+
+Based on your understanding of what a dvd rental business might want to understand about their customer base, what other interesting dimensions / facts do you think should be included in the `customer_lifecycle` table.
 
 ## Pre Requisites
 
