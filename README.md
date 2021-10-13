@@ -23,9 +23,9 @@ We have set a series of tasks for you to complete as outlined below.
 
 For each question, please write the dbt transformation in the folder dbt_project/models, and we can go through them in the interview.
 
-1. create a table called `yearly_top10_movies` that has the top 10 most popular movies by category for each year.
+1. create a table called `monthly_top10_movies` that has the top 10 most popular movies by category for each month.
 2. create a table called `monthly_store_value` that has the average customer value & total sales per store by month
-3. create a table called `yearly_top10_stores` that has the top 10 stores stores per year ordered by total sales. please refer (`ref`) to the table `monthly_store_value` when defining `yearly_top10_stores`
+3. create a table called `top10_stores_2006` that has the top 10 stores stores ordered by total sales in where the rental date is in 2006. Please refer (`ref`) to the table `monthly_store_value` when defining `yearly_top10_stores`
 4. [optional] create a table called `customer_lifecycle`, with a primary key of `customer_id` to provide a holistic view of the customers activitiy and should include:
    - the revenue generated in teh first 30 days of the customer's lifecycle, with day 0 being their first rental date
    - the name of the first film they rented
