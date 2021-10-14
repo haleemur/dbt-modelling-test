@@ -83,9 +83,7 @@ For each question, please write the dbt transformation in the folder dbt_project
    - average time between rentals
    - total revenue
 
-### Discussion During Interview
-
-Based on your understanding of what a dvd rental business might want to understand about their customer base, what other interesting dimensions / facts do you think should be included in the `customer_lifecycle` table.
+5. Discussion During Interview: Based on your understanding of what a dvd rental business might want to understand about their customer base, what other interesting dimensions / facts do you think should be included in the `customer_lifecycle` table.
 
 ## Pre Requisites
 
