@@ -11,8 +11,8 @@ In this exercise, you will set up your docker environment by following instructi
 
 Adequate knowledge of `git` is presumed. Useful commands related to docker & dbt are included in in this readme for your convenience.
 
-- For more information about dbt, please visit their (documentation site)[https://docs.getdbt.com/docs/introduction]. I also find the [`setting-up`](https://docs.getdbt.com/tutorial/setting-up) useful tutorial for beginners.
-- For more information about docker, please visit their (documentation site)[https://docs.docker.com/]
+- For more information about dbt, please visit the [dbt documentation site](https://docs.getdbt.com/docs/introduction). I also find the [`setting-up`](https://docs.getdbt.com/tutorial/setting-up) useful tutorial for beginners.
+- For more information about docker, please visit the [docker documentation site](https://docs.docker.com/)
 
 ## TLDR
 
