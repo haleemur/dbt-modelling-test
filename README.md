@@ -2,9 +2,14 @@
 
 # Introduction
 
-This technical test makes use the dvdrentals postgresql database, docker & dbt. The goal of this test is to asses the candidate's knowledge of docker-based workflow, dbt & data transformation.
+This technical test makes use the dvdrentals postgresql database, docker & dbt. The goal of this test is to assess the candidate's knowledge of 
+* docker-based development workflow
+* dbt 
+* data modelling & transformation
 
-In this exercise, you will set up & teardown your docker environment by following some instructions below, write transformations in dbt to answer the following questions. Useful commands related to docker & dbt have been highlighted below for your convenience.
+In this exercise, you will set up your docker environment by following instructions laid out below in order to write transformations in dbt to answer the questions posed below. 
+
+Adequate knowledge of `git` is presumed. Useful commands related to docker & dbt are included in in this readme for your convenience.
 
 - For more information about dbt, please visit their (documentation site)[https://docs.getdbt.com/docs/introduction]. I also find the [`setting-up`](https://docs.getdbt.com/tutorial/setting-up) useful tutorial for beginners.
 - For more information about docker, please visit their (documentation site)[https://docs.docker.com/]
@@ -17,10 +22,11 @@ git clone https://github.com/haleemur/dbt-modelling-test.git
 cd dbt-modelling-test
 docker-compose build
 ```
-2. Explore database & familiarize yourself with [database schema](#database-schema)
+2. Explore database & familiarize yourself with [the database schema](#database-schema)
 ```
 docker-compose up -d db
-psql -h localhost -U dbt -p 5555 -W dvdrental
+# or connect to the database from your favourite IDE (e.g. postico, datagrip, etc.) instead of psql
+psql -h localhost -U dbt -p 5555 -W dvdrental 
 
 Password:
 psql (13.3 (Ubuntu 13.3-1.pgdg20.04+1), server 13.4 (Debian 13.4-1.pgdg110+1))
@@ -41,7 +47,7 @@ dbt-modelling-test/dbt_projects/models/top10_stores_2006.sql
 dbt-modelling-test/dbt_projects/models/customer_lifecycle.sql
 ```
 
-4. [run dbt](#running-transformations) _& verify that the output tables have expected values. you can verify that by querying tables _
+4. [run dbt](#running-transformations) _and verify that the output tables have expected values. you can verify that by querying tables._ As you edit the model definitions, just re-run the following command, and it will refresh the target tables. The target tables may be inspected in schema `dbt_output` and the table name will correspond to the model name (e.g. `dbt_output.monthly_top10_movies`)
 ```
 docker-compose run dbt run
 ```
