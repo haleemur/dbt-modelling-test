@@ -14,7 +14,9 @@ RUN apt-get update \
     # update pip
     && pip install -U pip
 
-RUN pip install dbt==0.19.1
+RUN pip install \
+    markupsafe==2.0.1 \
+    dbt==0.19.1
 
 ENV DBT_PROFILES_DIR .profiles
 ENTRYPOINT [ "dbt" ]
